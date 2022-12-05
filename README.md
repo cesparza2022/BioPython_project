@@ -1,11 +1,11 @@
 # BioPython_project
 ## Análisis de expresión diferencial de materia gris y blanca en individuos lesiones cerebrales traumáticas
-### **Integrantes:**
+### **Integrantes**
 César F. Esparza Alvarado  
 Héctor Ulises Gaspar Eslava  
 Natalia Gutierrez Ponce  
 
-### **Introducción:**  
+### **Introducción**  
 Las lesiones cerebrales traumáticas son lesiones repentinas que causan daño en el cerebro, debido a impactos en la cabeza. Los efectos pueden ser de moderados a severos, dependiendo de los efectos de la lesión en las funciones cerebrales. Estas lesiones son la tercer causa de muerte y discapacidad en el mundo, y la primera en adolescentes. Igualmente, estas lesiones tienen efectos progresivos tales como secuelas neurológicas y casos de suicidio. 
 Se ha encontrado que, posterior a una lesión severa, hay niveles elevados de expresión de APP3 (Proteína precursora amiloidea). En el caso de lesiones moderadas, se han encontrado niveles altos de deposición de especies de tau fosforilada en varias regiones cerebrales. Sin embargo, se sabe poco de los cambios a largo plazo y las implicaciones de las lesiones en los pronósticos médicos de los pacientes. 
 **Objetivo:**
