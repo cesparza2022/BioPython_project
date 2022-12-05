@@ -1,9 +1,9 @@
 # BioPython_project
 ## Proyecto final para la clase de Biopython LCG semestre 3
 ### **Integrantes:**
-César Esparza Alvarado \n
-Héctor Ulises Gaspar Eslava
-Natalia Gutierrez Ponce
+César F. Esparza Alvarado  
+Héctor Ulises Gaspar Eslava  
+Natalia Gutierrez Ponce  
 
 ## Análisis de expresión diferencial de materia gris y blanca en individuos lesiones cerebrales traumáticas
 
