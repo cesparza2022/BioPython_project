@@ -67,8 +67,12 @@ El programa corre por gen en el archivo *fpkm_table_normalized.csv*, y evalua la
 Se calcularon el t-value y p-value de los genes que superaron el filtro 1 para ver su significacnia en la la lesión cerebral. 
 
 #### 5. Evaluación de resultados 
+
+![image](https://user-images.githubusercontent.com/100377746/206759830-e63f5f15-ef33-4485-8434-c46e6c28a247.png)
+##### *fig.9 nivel de expresión de las muestras*  
+
 ![image](https://user-images.githubusercontent.com/100377746/206754234-7a7e73a8-c78b-4c84-a88a-234a287ee2e3.png)
-##### *fig. 8 5 genes con mayor expresión*
+##### *fig.8 5 genes con mayor expresión*
 Se puede ver que los niveles de expresión diferencial de estos genes son bastante similares, lo que inidca que existe una posible relación entre estos. También vale la pena mencionar, que dos de estos genes son factores de necrosis de tumor.
 
 
