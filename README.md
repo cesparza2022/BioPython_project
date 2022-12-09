@@ -29,7 +29,11 @@ Comprender las bases moleculares de la neurodegeneración relacionada a lesiones
 
 ### **Resultados**
 
-Se descargaro una carpeta con 4 archivos relacionados a los experimentos.   El primer archivo *columns_samples2.csv* describe el origen de las muestras recolectadas, incluyendo columnas cómo: donor_id, structure_name, hemisphere, TBI_status, etc. 
+Se descargó una carpeta con 4 archivos relacionados a los experimentos.  
+El primer archivo *columns_samples2.csv* describe el origen de las muestras recolectadas, incluyendo columnas cómo: donor_id, structure_name, hemisphere, TBI_status, etc. 
 ![image](https://user-images.githubusercontent.com/100377746/206722981-03db4b38-51ec-49f1-9424-4a502f594678.png)
 ##### *fig.1 archivo columns_samples2.csv*
 
+El segundo archivo *fpkm_table_normalized* que contiene los valores normalizados de la expresión de los genes por muestra. 
+![image](https://user-images.githubusercontent.com/100377746/206724870-11e8ff0e-44cf-40a3-9f49-28f968283ed7.png)
+##### *fig.2 archivo fpkm_table_normalized*
