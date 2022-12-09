@@ -104,7 +104,7 @@ def estruct_muestra(archivo):
   num_estr.append(tmp_crt,w_mtr,hipp,par_neo)
   
   #Graficar 
-  plt.bar(cromosomas, gen_crom = abvr_genes)
+  plt.bar(str_col, gen_crom = abvr_genes)
   plt.xlabel('cromosoma')
   plt.ylabel("numero de genes")
   plt.title('genes por cromosoma')
