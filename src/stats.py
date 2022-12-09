@@ -1,7 +1,6 @@
 import pandas as pd
 from scipy.stats import ttest_ind
 import argparse 
-import tsv
 from tabulate import tabulate
 
 
@@ -68,5 +67,8 @@ for gen in result.index:
     data.append(ttest_ind(prueba, control))
 stats = pd.Series(data, index = indexes, name = 'Stats')
 
-table = tabulate(stats, headers=header, tablefmt='orgtbl')
-print(tabulate(table))
+table = tabulate(stats, headers=header)
+
+with open (t-tests.txt', 'w') as file
+           file.write(table)
+
