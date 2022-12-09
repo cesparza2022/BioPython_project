@@ -73,7 +73,7 @@ Se calcularon el t-value y p-value de los genes que superaron el filtro 1 para v
 ![image](https://user-images.githubusercontent.com/100377746/206759830-e63f5f15-ef33-4485-8434-c46e6c28a247.png)
 ##### *fig.9 nivel de expresión de las muestras*  
 
-![image](https://user-images.githubusercontent.com/100377746/206754234-7a7e73a8-c78b-4c84-a88a-234a287ee2e3.png)
+![image](https://user-images.githubusercontent.com/100377746/206768972-2731377d-6fe3-467e-9d6a-a9366d9d851a.png)
 ##### *fig.10 5 genes con mayor expresión*
 Se puede ver que los niveles de expresión diferencial de estos genes son bastante similares, lo que inidca que existe una posible relación entre estos. También vale la pena mencionar, que dos de estos genes son factores de necrosis de tumor.
 
