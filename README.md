@@ -32,11 +32,11 @@ Comprender las bases moleculares de la neurodegeneración relacionada a lesiones
 Se descargó una carpeta con 4 archivos relacionados a los experimentos.  
 El primer archivo *columns_samples2.csv* describe el origen de las muestras recolectadas, incluyendo columnas cómo: donor_id, structure_name, hemisphere, TBI_status, etc. 
 ![image](https://user-images.githubusercontent.com/100377746/206722981-03db4b38-51ec-49f1-9424-4a502f594678.png)
-##### *fig.1 archivo columns_samples2.csv*
+###### *fig.1 archivo columns_samples2.csv*
 
 El segundo archivo *fpkm_table_normalized.csv* que contiene los valores normalizados de la expresión de los genes por muestra. 
 ![image](https://user-images.githubusercontent.com/100377746/206724870-11e8ff0e-44cf-40a3-9f49-28f968283ed7.png)
-##### *fig.2 archivo fpkm_table_normalized.csv*
+###### *fig.2 archivo fpkm_table_normalized.csv*
 
 El tercer archivo *tbi_data_files.csv* incluye infromación relacionad con las muestras, incluyendo aspectos cómo: la integridad del rna, lecturasa totales de rna, porcentaje de rna alineado a lecturas de ncrna
 ![image](https://user-images.githubusercontent.com/100377746/206733039-3e2dc242-118e-40a5-90b1-289d2cbe791e.png)
@@ -44,6 +44,7 @@ El tercer archivo *tbi_data_files.csv* incluye infromación relacionad con las m
 
 El cuarto archivo *row-genes.csv* que contiene la informacion sobre los genes que fueron muestreados en este experimento. Incluyendo columnas cómo: chromosome, gene_etrez_id, gene_name, etc.
 ![image](https://user-images.githubusercontent.com/100377746/206734079-165f426b-1708-455f-80c1-ac45ee53de55.png)
-###### *fig.4 archivo roe_genes.csv*
+###### *fig.4 archivo row_genes.csv*
+
 
 
