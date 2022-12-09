@@ -59,7 +59,4 @@ for gen in expr_df.index:
     prueba = []
 
         
-f = open("results.txt", 'w')
-f.write(genes)
-f.write(div_val)
-f.close
+print(genes)
