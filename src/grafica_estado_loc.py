@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import argparse
 
 
-arg_parser = argparse.ArgumentParser(description="generar una grafica de pie con cantidades de controles y muestras experientales")
+arg_parser = argparse.ArgumentParser(description="generar una grafica de pie con cantidades de controles y muestras experimentales")
 #Se inicializa el paso de argumentos del programa
 arg_parser.add_argument("-f", "--FILE",
                     metavar="path/to/file",
