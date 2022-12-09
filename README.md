@@ -66,11 +66,13 @@ El programa corre por gen en el archivo *fpkm_table_normalized.csv*, y evalua la
 #### 4. Evaluación de la estadística 
 Se calcularon el t-value y p-value de los genes que superaron el filtro 1 para ver su significacnia en la la lesión cerebral. 
 
-##### 5. Evaluación de resultados 
+#### 5. Evaluación de resultados 
 ![image](https://user-images.githubusercontent.com/100377746/206754234-7a7e73a8-c78b-4c84-a88a-234a287ee2e3.png)
+##### *fig. 8 5 genes con mayor expresión*
+Se puede ver que los niveles de expresión diferencial de estos genes son bastante similares, lo que inidca que existe una posible relación entre estos. También vale la pena mencionar, que dos de estos genes son factores de necrosis de tumor.
 
 
 ### **Conclusión**
-Con este proyecto se puediron encontrar los genes que presentan una mayor expresión en casos de lesión cerebral. 
+Con este proyecto se puediron encontrar los genes que presentan una mayor expresión en casos de lesión cerebral. Para futuras investigaciones, valdría la pena buscar vías de señalización que relacionen estos genes y comparar con lo que se sabe sobre lesiones cerebrales. Dentro de los genes más expresados en el grupo prueba que en el grupo control, se encontraron dos factores de necrosis de tumor, por lo que suena lógico buscar algun vínculo entre la necrosis de tumores y las lesiones cerebrales
 
 
