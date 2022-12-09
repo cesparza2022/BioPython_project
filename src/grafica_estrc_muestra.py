@@ -1,7 +1,7 @@
 import pandas as pd
 import argparse
 
-arg_parser = argparse.ArgumentParser("Número de genes por cromosoma secuenciados")
+arg_parser = argparse.ArgumentParser("Estructura de la que se tomó la muestra")
 
 arg_parser.add_argument("-f", "--FILE",
                     metavar="path/to/file",
