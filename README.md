@@ -64,5 +64,13 @@ El programa corre por gen en el archivo *fpkm_table_normalized.csv*, y evalua la
 
 
 #### 4. Evaluación de la estadística 
-SE calcularon el t-value y p-value de los genes que superaron el filtro 1 para ver su significacnia en la la lesión cerebral. 
+Se calcularon el t-value y p-value de los genes que superaron el filtro 1 para ver su significacnia en la la lesión cerebral. 
+
+##### 5. Evaluación de resultados 
+![image](https://user-images.githubusercontent.com/100377746/206754234-7a7e73a8-c78b-4c84-a88a-234a287ee2e3.png)
+
+
+### **Conclusión**
+Con este proyecto se puediron encontrar los genes que presentan una mayor expresión en casos de lesión cerebral. 
+
 
