@@ -58,8 +58,10 @@ for gen in expr_df.index:
     control = []
     prueba = []
 
-f = open("data/resultados.txt", "x")
-f.write(genes)
-f.write(div_val)
-f.close()
+        
+ with open("data/results.tsv", 'w', encoding='utf8', newline='') as tsv_file:
+        tsv_writer = csv.writer(tsv_file, delimiter='\t', lineterminator='\n')
+        tsv_writer.writerow(["gen", "divergencia"])
+        for gen in genes:
+            tsv_writer.writerow([gen, div_val])
 
