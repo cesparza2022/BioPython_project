@@ -1,8 +1,6 @@
 import pandas as pd
 from scipy import stats
-import argparse 
-from tabulate import tabulate
-import tsv
+import argparse
 from statistics import mean
 
 arg_parser = argparse.ArgumentParser(description="obtener el valor estadístico de t_test")
