@@ -61,4 +61,5 @@ for gen in expr_df.index:
         
 f = open("results.txt", 'w')
 f.write(genes)
+f.write(div_val)
 f.close
