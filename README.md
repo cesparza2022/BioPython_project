@@ -50,7 +50,7 @@ El cuarto archivo *row-genes.csv* que contiene la informacion sobre los genes qu
 ![image](https://user-images.githubusercontent.com/100377746/206742359-c152c1a5-25f3-4b91-b486-8113a89b3a0b.png)
 ###### *fig.5 evaluación de los pacientes* 
 
-![image](https://user-images.githubusercontent.com/100377746/206748587-8c773925-71ea-4957-a8f8-2b478c9fcbcd.png)
+![image](https://user-images.githubusercontent.com/100377746/206759565-a20024da-b281-47f3-b02d-71d1c808bed4.png)
 ###### *fig.6 estructura de la que salió la muestra*
 
 ![image](https://user-images.githubusercontent.com/100377746/206748717-f6e01096-40be-4aaf-956e-317996e29e2d.png)
