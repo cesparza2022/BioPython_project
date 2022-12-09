@@ -31,5 +31,5 @@ Comprender las bases moleculares de la neurodegeneración relacionada a lesiones
 
 Se descargaro una carpeta con 4 archivos relacionados a los experimentos.   El primer archivo __columns_samples2.csv__ describe el origen de las muestras recolectadas, incluyendo columnas cómo: donor_id, structure_name, hemisphere, TBI_status, etc. 
 ![image](https://user-images.githubusercontent.com/100377746/206722981-03db4b38-51ec-49f1-9424-4a502f594678.png)
-#####fig.1 archivo __columns_samples2.csv__
+##### fig.1 archivo __columns_samples2.csv__
 
