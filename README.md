@@ -46,6 +46,11 @@ El cuarto archivo *row-genes.csv* que contiene la informacion sobre los genes qu
 ![image](https://user-images.githubusercontent.com/100377746/206734079-165f426b-1708-455f-80c1-ac45ee53de55.png)
 ###### *fig.4 archivo row_genes.csv*
 
-#### 2. Se obtuvieron los genes con mayor relevancia 
+#### 3. Se obtuvieron los genes con mayor relevancia 
+Para esto se corrio el programa *filtro_1.py* que toma los arhcivos *fpkm_table_normalized.csv* y *columns_samples2.csv* y devuelve una lista de genes que pasaron el filtro y una lista con su factro de divergencia. 
+
+El programa corre por gen en el archivo *fpkm_table_normalized.csv*, y evalua la expresión por muestra control o muestra prueba. De esta forma, por cada gen llena las listas *control* y *prueba*, a las que se les saca el promedio y se restan para encontrar la diferencia en expresión entre estos grupos. 
+
+#### 4. Evaluación de la estadística 
 
 
