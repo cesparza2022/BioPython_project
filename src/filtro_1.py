@@ -58,5 +58,8 @@ for gen in expr_df.index:
     control = []
     prueba = []
 
-print(len(genes))
-print(len(div_val))
+f = open("data/resultados.txt", "x")
+f.write(genes)
+f.write(div_val)
+f.close()
+
