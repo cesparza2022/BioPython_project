@@ -2,6 +2,8 @@ import pandas as pd
 from matplotlib import pyplot as plt
 import argparse
 
+
+#Hacemos el pase de argumentos en el que toma una lista de genes y una lista de el valor de divergencia de estos genes
 arg_parser = argparse.ArgumentParser("Número de genes por cromosoma secuenciados")
 
 arg_parser.add_argument("-l1", "--LIST1",
@@ -42,13 +44,24 @@ def max_div(gen,div_gen,num):
 tuple_list = list(max_div(gen_list,div_gen_list,5))
 
 new_genes = []
-new_div = []
+expr = []
 for i in range(0,10):
   if i % 2 == 0: 
     new_genes.append(tuple_list[i])
    else:
-    new_div.append(tuple_list[i])
+    expr.append(tuple_list[i])
 
+nums = [1, 2, 3, 4, 5]
+
+  
+
+plt.bar(nums, expr, abvr_genes = abvr_genes,
+        width = 0.8, color = ['red', 'green',"blue","yellow","pink"])
+  
+plt.xlabel('abreviación del gen')
+plt.ylabel("nivel de expresión")
+plt.title('5 genes con mayor expresión')
+plt.show()
  
   
 
