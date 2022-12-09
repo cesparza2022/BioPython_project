@@ -65,20 +65,22 @@ El programa corre por gen en el archivo *fpkm_table_normalized.csv*, y evalua la
 
 #### 4. Evaluación de la estadística 
 Se calcularon el t-value y p-value de los genes que superaron el filtro 1 para ver su significacnia en la la lesión cerebral. 
+![image](https://user-images.githubusercontent.com/100377746/206764221-8ba42925-ef99-493b-a083-bff4d9db0652.png)
+##### *fig.8 t_test y p_value de los genes* 
 
 #### 5. Evaluación de resultados 
 
 ![image](https://user-images.githubusercontent.com/100377746/206759830-e63f5f15-ef33-4485-8434-c46e6c28a247.png)
-##### *fig.8 nivel de expresión de las muestras*  
+##### *fig.9 nivel de expresión de las muestras*  
 
 ![image](https://user-images.githubusercontent.com/100377746/206754234-7a7e73a8-c78b-4c84-a88a-234a287ee2e3.png)
-##### *fig.9 5 genes con mayor expresión*
+##### *fig.10 5 genes con mayor expresión*
 Se puede ver que los niveles de expresión diferencial de estos genes son bastante similares, lo que inidca que existe una posible relación entre estos. También vale la pena mencionar, que dos de estos genes son factores de necrosis de tumor.
 
 ![image](https://user-images.githubusercontent.com/100377746/206761567-a12c497c-da25-4289-9675-63a4ee1f4c74.png)
 ![image](https://user-images.githubusercontent.com/100377746/206761809-428e9511-bcfa-4da8-b16e-1a04a5466e6e.png)
 
-##### *fig.10 buesqueda en entrez de factores de necrosis*
+##### *fig.11 buesqueda en entrez de factores de necrosis*
 
 
 ### **Conclusión**
