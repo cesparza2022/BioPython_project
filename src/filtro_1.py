@@ -31,8 +31,11 @@ prueba = []
 div_val = []
 genes = []
 
+#Se abre un archivo para guardar los resultados
 with open ('filtered_genes.tsv', 'w') as tsvfile:
+  #Se recorre por gen el archivo con datos de expresion
   for gen in expr_df.index:
+      #Se recorre por persona el archivo con datos de grupos de control y prueba
       for persona in base_df.index:
 
           ## En el caso de que sea sujeto prueba se almacena el valor de la expresión del gen en la lista prueba
@@ -45,10 +48,11 @@ with open ('filtered_genes.tsv', 'w') as tsvfile:
           if (base_df["TBI_status"][persona] == "N"):
               pozo = str(base_df["rnaseq_profile_id"][persona])
               control.append(expr_df[pozo][gen])
-
+      #Se obtienen las medias de cada vector, por gen
       mean_control = (mean(control))
       mean_prueba = (mean(prueba))
-
+      
+      #Si las medias pasan los siguientes filtros, se va a guardar el geneID en un archivo TSV
       if (mean_control > mean_prueba and mean_control - mean_prueba > 3 ):
           genes.append(expr_df["gene_id \ rnaseq_profile_id"][gen])
           div_val.append(mean_control - mean_prueba)
@@ -58,6 +62,7 @@ with open ('filtered_genes.tsv', 'w') as tsvfile:
           genes.append(expr_df["gene_id \ rnaseq_profile_id"][gen])
           div_val.append(mean_prueba - mean_control)
           tsvfile.write((str(expr_df["gene_id \ rnaseq_profile_id"][gen])+"\n")
+      #Se reinician los vectores
       control = []
       prueba = []
 
