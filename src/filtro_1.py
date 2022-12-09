@@ -28,7 +28,7 @@ expr_df = pd.read_csv(args.FILE1)
 ##Inicializar las listas
 control = []
 prueba = []
-t_tests = []
+div_val = []
 genes = []
 
 for gen in expr_df.index:
@@ -50,10 +50,13 @@ for gen in expr_df.index:
     
     if (mean_control > mean_prueba and mean_control - mean_prueba > 3 ):
         genes.append(expr_df["gene_id \ rnaseq_profile_id"][gen])
+        div_val.append(mean_control - mean_prueba)
     
     if (mean_prueba > mean_control and mean_prueba - mean_control > 3 ):
         genes.append(expr_df["gene_id \ rnaseq_profile_id"][gen])
+        div_val.append(mean_prueba - mean_control)
     control = []
     prueba = []
 
 print(len(genes))
+print(len(div_val))
