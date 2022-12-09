@@ -39,4 +39,17 @@ def max_div(gen,div_gen,num):
      
     
   return new_max_gen, new_max_div
+tuple_list = list(max_div(gen_list,div_gen_list,5))
+
+new_genes = []
+new_div = []
+for i in range(0,10):
+  if i % 2 == 0: 
+    new_genes.append(tuple_list[i])
+   else:
+    new_div.append(tuple_list[i])
+
+ 
+  
+
   
